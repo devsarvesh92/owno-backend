@@ -1,0 +1,15 @@
+[project]
+name = "owno_backend"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = ["pytest>=8.3.4", "fastapi>=0.115.8", "piccolo[postgres]>=1.22.0", "redis-cli>=1.0.1", "pydantic-settings>=2.7.1", "pydantic>=2.10.6", "uvicorn>=0.34.0", "httpx>=0.28.1", "pytest-asyncio>=0.25.3"]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
